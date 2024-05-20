@@ -5,10 +5,14 @@ import java.time.format.DateTimeFormatter;
 public class Main {
     public static void main(String[] args) {
 
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");
-        LocalDateTime localDateTime = LocalDateTime.now();
+
+        System.out.println(ChangeTheNummer.changeTheNummer(10, 6));
 
 
-        System.out.println(dateTimeFormatter.format(localDateTime));
+//        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");
+//        LocalDateTime localDateTime = LocalDateTime.now();
+//
+//
+//        System.out.println(dateTimeFormatter.format(localDateTime));
     }
 }
